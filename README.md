@@ -17,4 +17,6 @@ Create a java project and add `PostgreSQLJDBCConnection.java` into the /src/ fil
 Download `postgresql-42.7.0.jar` and add this .jar file to your classpath (or referenced libraries on vscode) in order to have the ability to connect to PostgreSQL.
 
 ### Step 5
-Next, run `PostgreSQLJDBCConnection.java`
+Next, run the program. You should get a menu with four options, each option running one of the functions.
+
+Selecting one of these options, will give you the ability to add, delete, print or edit the table in this database, which can be looked at by calling a `SELECT * FROM students` query, everytime a function is run.
